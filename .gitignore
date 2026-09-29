@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and model artifacts
+data/
+datasets/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Training logs
+lightning_logs/
+runs/
+events.out.tfevents.*
+
+# Local environment
+.DS_Store
+.env

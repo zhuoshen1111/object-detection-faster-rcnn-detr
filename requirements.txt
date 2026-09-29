@@ -1,0 +1,14 @@
+numpy>=1.26
+Pillow>=10.0
+matplotlib>=3.8
+opencv-python-headless>=4.9
+pycocotools>=2.0.7
+torch>=2.2
+torchvision>=0.17
+transformers>=4.46,<6
+torchmetrics[detection]>=1.4
+tqdm>=4.66
+pytest>=8.0
+
+# Detectron2 is installed separately in the Colab notebook so it can build
+# against the Torch/CUDA versions provided by the active runtime.

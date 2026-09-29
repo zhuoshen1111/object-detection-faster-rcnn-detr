@@ -1,0 +1,17 @@
+{
+  "source": "Supplied homework notebooks and PDF",
+  "evaluation_status": "Historical only; rerun corrected notebook for final comparison",
+  "faster_rcnn": {
+    "ap": 49.497563286403775,
+    "ap50": 72.72718583737738,
+    "ap75": 56.38045978313519,
+    "unit": "percent",
+    "status": "present_in_original_notebook_output"
+  },
+  "detr": {
+    "ap50": null,
+    "reported_in_pdf": 56.3,
+    "unit": "percent",
+    "status": "not_verifiable_from_supplied_notebook_outputs"
+  }
+}
